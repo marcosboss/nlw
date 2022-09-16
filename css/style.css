@@ -1,0 +1,185 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body * {
+    /* border: 1px solid white; */
+    font-family: 'Inter', sans-serif;
+    line-height: 160%;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100% auto;
+    background-color: #121214;
+    background-image: url(../img/Fundo\ \(2\).jpg);
+}
+
+header img {
+    display: flex;
+    border-radius: 50%;
+    margin: auto;
+    width: 150px;
+    padding: 4px;
+
+    background: linear-gradient(122deg, #ff0000, #ff9409, #000000);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 11s ease infinite;
+    -moz-animation: AnimationName 11s ease infinite;
+    animation: AnimationName 11s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0% {
+        background-position: 0% 19%
+    }
+
+    50% {
+        background-position: 100% 82%
+    }
+
+    100% {
+        background-position: 0% 19%
+    }
+}
+
+@-moz-keyframes AnimationName {
+    0% {
+        background-position: 0% 19%
+    }
+
+    50% {
+        background-position: 100% 82%
+    }
+
+    100% {
+        background-position: 0% 19%
+    }
+}
+
+@keyframes AnimationName {
+    0% {
+        background-position: 0% 19%
+    }
+
+    50% {
+        background-position: 100% 82%
+    }
+
+    100% {
+        background-position: 0% 19%
+    }
+
+}
+
+main {
+    max-width: 580px;
+    width: 90%;
+    margin: auto;
+
+    display: grid;
+    gap: 24px;
+    padding: 32px 0 44px 0;
+}
+
+section {
+    color: white;
+    border-radius: 10px;
+    padding-top: 4px;
+
+    background: linear-gradient(122deg, #ff0000, #ff9409, #000000);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 11s ease infinite;
+    -moz-animation: AnimationName 11s ease infinite;
+    animation: AnimationName 11s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0% {
+        background-position: 0% 19%
+    }
+
+    50% {
+        background-position: 100% 82%
+    }
+
+    100% {
+        background-position: 0% 19%
+    }
+}
+
+@-moz-keyframes AnimationName {
+    0% {
+        background-position: 0% 19%
+    }
+
+    50% {
+        background-position: 100% 82%
+    }
+
+    100% {
+        background-position: 0% 19%
+    }
+}
+
+@keyframes AnimationName {
+    0% {
+        background-position: 0% 19%
+    }
+
+    50% {
+        background-position: 100% 82%
+    }
+
+    100% {
+        background-position: 0% 19%
+    }
+}
+
+
+section div {
+    background: #2A2634;
+    border-radius: 8px;
+    padding: 32px;
+    padding-top: 24px;
+}
+
+section h2 {
+    color: #FFFFFF;
+    letter-spacing: -0.47px;
+    font-size: 24px;
+}
+
+section p {
+    color: #A1A1AA;
+    letter-spacing: -0.18px;
+    font-size: 16px;
+}
+
+section ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+
+    margin-top: 24px;
+}
+
+.games-list img {
+    width: 90px;
+    border-radius: 8px;
+}
+
+.channel-list img {
+    width: 70px;
+    border-radius: 50%;
+    border: 1px solid rgb(148, 144, 144);
+}
